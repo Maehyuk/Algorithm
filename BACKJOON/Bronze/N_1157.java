@@ -23,7 +23,7 @@ public class N_1157 {
 			if (arr[i] > max) {
 				max = arr[i];
 				ans = (char) (i + 'A');
-			} else {
+			} else if(max ==arr[i]){
 				ans = '?';
 			}
 		}
