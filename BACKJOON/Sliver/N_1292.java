@@ -21,23 +21,17 @@ public class N_1292 {
 
 		for (int i = 1; i <= 1000; i++) {
 			for (int j = 0; j < i; j++) {
-
 				if (index == 1001) {
 					break;
 				}
-
 				index++;
 				arr[index] = i;
-
 			}
 		}
 
 		for (int i = A; i <= B; i++) {
 			sum += arr[i];
 		}
-
 		System.out.println(sum);
-
 	}
-
 }
